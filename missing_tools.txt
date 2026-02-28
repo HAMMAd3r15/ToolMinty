@@ -1,0 +1,76 @@
+﻿Found 162 tools in calculators.ts
+Missing pages:
+[
+  {
+    "href": "/day-counter",
+    "error": "page.tsx missing"
+  },
+  {
+    "href": "/business-loan-calculator",
+    "error": "page.tsx missing"
+  },
+  {
+    "href": "/car-payment-calculator",
+    "error": "page.tsx missing"
+  },
+  {
+    "href": "/personal-loan-calculator",
+    "error": "page.tsx missing"
+  },
+  {
+    "href": "/mortgage-payoff-calculator",
+    "error": "page.tsx missing"
+  },
+  {
+    "href": "/daily-spending-limit",
+    "error": "page.tsx missing"
+  },
+  {
+    "href": "/sales-tax-calculator",
+    "error": "page.tsx missing"
+  },
+  {
+    "href": "/vat-calculator",
+    "error": "page.tsx missing"
+  },
+  {
+    "href": "/savings-rate-calculator",
+    "error": "page.tsx missing"
+  },
+  {
+    "href": "/tax-bracket-calculator",
+    "error": "page.tsx missing"
+  },
+  {
+    "href": "/csv-to-json-converter",
+    "error": "page.tsx missing"
+  },
+  {
+    "href": "/epoch-converter",
+    "error": "page.tsx missing"
+  },
+  {
+    "href": "/hex-converter",
+    "error": "page.tsx missing"
+  },
+  {
+    "href": "/lorem-ipsum-generator",
+    "error": "page.tsx missing"
+  },
+  {
+    "href": "/markdown-previewer",
+    "error": "page.tsx missing"
+  },
+  {
+    "href": "/sql-formatter",
+    "error": "page.tsx missing"
+  },
+  {
+    "href": "/text-analyzer",
+    "error": "page.tsx missing"
+  },
+  {
+    "href": "/week-number-calculator",
+    "error": "page.tsx missing"
+  }
+]
