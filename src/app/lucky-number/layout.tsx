@@ -3,7 +3,7 @@ import ToolLayout from '@/components/Layout/ToolLayout';
 import { calculators } from '@/utils/calculators';
 
 export const metadata: Metadata = {
-    title: 'Lucky Number Generator — Free Random Number Picker | ToolMinty',
+    title: 'Lucky Number Generator — Free Random Number Picker | ToolDex',
     description: 'Generate random numbers instantly with our lucky number generator. Set your range, click to generate, and see your history. Fun, fast, and free.',
     alternates: { canonical: '/lucky-number' },
 };

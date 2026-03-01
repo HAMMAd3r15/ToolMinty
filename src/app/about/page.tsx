@@ -1,15 +1,15 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'About Us - ToolMinty',
-    description: 'Learn more about ToolMinty and our mission to provide simple, accurate, and free online calculators.',
+    title: 'About Us - ToolDex',
+    description: 'Learn more about ToolDex and our mission to provide simple, accurate, and free online calculators.',
     alternates: {
         canonical: '/about',
     },
     openGraph: {
-        title: 'About ToolMinty',
+        title: 'About ToolDex',
         description: 'Providing fast, accurate, and free online calculators for everyone.',
-        url: 'https://toolminty.com/about',
+        url: 'https://tooldex.com/about',
         type: 'website',
     },
 };
@@ -20,7 +20,7 @@ export default function AboutPage() {
             <h1 style={{ color: 'var(--color-primary)', fontSize: '2.5rem', marginBottom: '1.5rem' }}>About Us</h1>
 
             <p style={{ fontSize: '1.125rem', marginBottom: '1.5rem' }}>
-                Welcome to <strong>ToolMinty</strong>, your reliable destination for simple, fast, and accurate online calculators & professional tools.
+                Welcome to <strong>ToolDex</strong>, your reliable destination for simple, fast, and accurate online calculators & professional tools.
                 Whether you're curious about your exact age, planning for an upcoming event, or needing to calculate financial projections,
                 we've built these tools to provide instant answers with ease.
             </p>

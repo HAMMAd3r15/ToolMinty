@@ -2,7 +2,7 @@ import { calculators } from '@/utils/calculators';
 import { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-    const baseUrl = 'https://toolminty.com';
+    const baseUrl = 'https://tooldex.com';
 
     const toolUrls = calculators.map((calc) => ({
         url: `${baseUrl}${calc.href}`,

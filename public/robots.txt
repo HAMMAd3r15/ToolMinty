@@ -4,4 +4,4 @@ Disallow: /_next/
 Disallow: /api/
 Disallow: /static/
 
-Sitemap: https://toolminty.com/sitemap.xml
+Sitemap: https://tooldex.com/sitemap.xml

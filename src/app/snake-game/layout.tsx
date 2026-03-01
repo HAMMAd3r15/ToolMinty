@@ -3,7 +3,7 @@ import ToolLayout from '@/components/Layout/ToolLayout';
 import { calculators } from '@/utils/calculators';
 
 export const metadata: Metadata = {
-    title: 'Snake Game — Play Classic Retro Snake Online | ToolMinty',
+    title: 'Snake Game — Play Classic Retro Snake Online | ToolDex',
     description: 'Play the classic retro Snake game online. Control the snake, eat food, and grow longer without hitting the walls or yourself. Free and fun arcade game.',
     alternates: { canonical: '/snake-game' },
 };

@@ -1,15 +1,15 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'Terms of Service | ToolMinty',
-    description: 'Terms of Service for ToolMinty — online calculators and digital tools.',
+    title: 'Terms of Service | ToolDex',
+    description: 'Terms of Service for ToolDex — online calculators and digital tools.',
     alternates: {
         canonical: '/terms',
     },
     openGraph: {
-        title: 'Terms of Service - ToolMinty',
-        description: 'The terms and conditions for using ToolMinty.',
-        url: 'https://toolminty.com/terms',
+        title: 'Terms of Service - ToolDex',
+        description: 'The terms and conditions for using ToolDex.',
+        url: 'https://tooldex.com/terms',
         type: 'website',
     },
 };
@@ -28,12 +28,12 @@ export default function TermsPage() {
 
             <h2>2. Use License</h2>
             <p>
-                Permission is granted to temporarily view the materials (information or software) on ToolMinty for personal, non-commercial transitory viewing only.
+                Permission is granted to temporarily view the materials (information or software) on ToolDex for personal, non-commercial transitory viewing only.
             </p>
 
             <h2>3. Disclaimer</h2>
             <p>
-                The materials on ToolMinty are provided &quot;as is&quot;.
+                The materials on ToolDex are provided &quot;as is&quot;.
                 We make no warranties, expressed or implied, and hereby disclaims and negates all other warranties.
                 Further, we do not guarantee the accuracy of results, although we strive for precision.
                 Do not use these calculations for critical legal, medical, or financial decisions.
@@ -41,7 +41,7 @@ export default function TermsPage() {
 
             <h2>4. Limitations</h2>
             <p>
-                In no event shall ToolMinty be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use the materials on this website.
+                In no event shall ToolDex be liable for any damages (including, without limitation, damages for loss of data or profit, or due to business interruption) arising out of the use or inability to use the materials on this website.
             </p>
         </article>
     );

@@ -3,7 +3,7 @@ import ToolLayout from '@/components/Layout/ToolLayout';
 import { calculators } from '@/utils/calculators';
 
 export const metadata: Metadata = {
-    title: 'Random Gradient Generator — Free CSS Background Gradients | ToolMinty',
+    title: 'Random Gradient Generator — Free CSS Background Gradients | ToolDex',
     description: 'Generate beautiful random CSS linear-gradient backgrounds instantly. Choose direction, copy the CSS code, and use in any web project. Free and instant.',
     alternates: { canonical: '/gradient-generator' },
 };

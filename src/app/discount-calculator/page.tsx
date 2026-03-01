@@ -44,7 +44,7 @@ export default function DiscountCalculator() {
         },
         {
             question: "Is this tool free to use?",
-            answer: "Yes, all tools on ToolMinty are completely free and require no signup."
+            answer: "Yes, all tools on ToolDex are completely free and require no signup."
         }
     ];
 

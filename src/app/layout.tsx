@@ -9,28 +9,28 @@ import JsonLd from '@/components/SEO/JsonLd';
 const inter = Inter({ subsets: ['latin'], display: 'swap' });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://toolminty.com'),
+  metadataBase: new URL('https://tooldex.com'),
   title: {
-    default: 'ToolMinty — Free Online Calculators & Professional Digital Tools',
-    template: '%s | ToolMinty'
+    default: 'ToolDex — Free Online Calculators & Professional Digital Tools',
+    template: '%s | ToolDex'
   },
   description: 'Simple, fast, and free online calculators for age, finance, health, and productivity. Professional-grade tools designed for clarity and speed.',
   keywords: ['online calculators', 'free tools', 'age finder', 'loan emi', 'percentage calculator', 'unit converter', 'bmi calculator'],
-  authors: [{ name: 'ToolMinty' }],
-  creator: 'ToolMinty',
-  publisher: 'ToolMinty',
+  authors: [{ name: 'ToolDex' }],
+  creator: 'ToolDex',
+  publisher: 'ToolDex',
   openGraph: {
-    title: 'ToolMinty — Free Online Calculators & Digital Tools',
+    title: 'ToolDex — Free Online Calculators & Digital Tools',
     description: 'The complete hub for fast, accurate, and professional online calculators.',
-    url: 'https://toolminty.com',
-    siteName: 'ToolMinty',
+    url: 'https://tooldex.com',
+    siteName: 'ToolDex',
     locale: 'en_US',
     type: 'website',
     images: [{ url: '/og-image.png', width: 1200, height: 630 }]
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'ToolMinty — Free Online Calculators & Digital Tools',
+    title: 'ToolDex — Free Online Calculators & Digital Tools',
     description: 'The complete hub for fast, accurate, and professional online calculators.',
     images: ['/og-image.png'],
   },
@@ -42,8 +42,8 @@ export const metadata: Metadata = {
 const websiteSchema = {
   "@context": "https://schema.org",
   "@type": "WebSite",
-  "name": "ToolMinty",
-  "url": "https://toolminty.com",
+  "name": "ToolDex",
+  "url": "https://tooldex.com",
 };
 
 export default function RootLayout({
@@ -71,7 +71,7 @@ export default function RootLayout({
           }}>
             <div className="container" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '3rem' }}>
               <div>
-                <h3 style={{ color: 'var(--color-text-primary)', marginBottom: '1.25rem', fontSize: '1.25rem', fontWeight: 900, letterSpacing: '-0.04em' }}>ToolMinty</h3>
+                <h3 style={{ color: 'var(--color-text-primary)', marginBottom: '1.25rem', fontSize: '1.25rem', fontWeight: 900, letterSpacing: '-0.04em' }}>ToolDex</h3>
                 <p style={{ color: 'var(--color-text-secondary)', fontSize: '0.9rem', lineHeight: '1.6' }}>
                   Your professional hub for free, fast, and accurate online calculators. Precision tools for finance, health, and productivity.
                 </p>
@@ -105,7 +105,7 @@ export default function RootLayout({
               </div>
             </div>
             <div className="container" style={{ margin: '4rem auto 0', textAlign: 'center', borderTop: '1px solid var(--color-border)', paddingTop: '2.5rem', color: 'var(--color-text-secondary)', fontSize: '0.875rem' }}>
-              <p suppressHydrationWarning>&copy; {new Date().getFullYear()} ToolMinty. Built for clarity, accuracy, and speed.</p>
+              <p suppressHydrationWarning>&copy; {new Date().getFullYear()} ToolDex. Built for clarity, accuracy, and speed.</p>
             </div>
 
           </footer>

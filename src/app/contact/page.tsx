@@ -1,15 +1,15 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'Contact Us | ToolMinty',
-    description: 'Get in touch with the team at ToolMinty. We welcome your feedback, questions, and suggestions.',
+    title: 'Contact Us | ToolDex',
+    description: 'Get in touch with the team at ToolDex. We welcome your feedback, questions, and suggestions.',
     alternates: {
         canonical: '/contact',
     },
     openGraph: {
-        title: 'Contact ToolMinty',
+        title: 'Contact ToolDex',
         description: 'Reach out to us for feedback or inquiries.',
-        url: 'https://toolminty.com/contact',
+        url: 'https://tooldex.com/contact',
         type: 'website',
     },
 };
@@ -34,7 +34,7 @@ export default function ContactPage() {
                 <h2 style={{ fontSize: '1.25rem', marginBottom: '1rem', color: 'var(--color-primary)' }}>Email Us Directly</h2>
                 <p style={{ marginBottom: '0.5rem' }}>For all inquiries, please reach out to us at:</p>
                 <a
-                    href="mailto:toolminty.offical@gmail.com"
+                    href="mailto:tooldex.offical@gmail.com"
                     style={{
                         fontSize: '1.25rem',
                         fontWeight: 700,
@@ -43,7 +43,7 @@ export default function ContactPage() {
                         wordBreak: 'break-all'
                     }}
                 >
-                    toolminty.offical@gmail.com
+                    tooldex.offical@gmail.com
                 </a>
             </div>
 

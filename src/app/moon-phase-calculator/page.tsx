@@ -15,9 +15,9 @@ export async function generateMetadata(): Promise<Metadata> {
             canonical: calcInfo.href,
         },
         openGraph: {
-            title: `${calcInfo.title} | ToolMinty`,
+            title: `${calcInfo.title} | ToolDex`,
             description: calcInfo.description,
-            url: `https://toolminty.com${calcInfo.href}`,
+            url: `https://tooldex.com${calcInfo.href}`,
             type: 'website',
         },
     };

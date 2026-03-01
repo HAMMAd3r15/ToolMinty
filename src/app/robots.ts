@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
             allow: '/',
             disallow: ['/api/'],
         },
-        sitemap: 'https://toolminty.com/sitemap.xml',
+        sitemap: 'https://tooldex.com/sitemap.xml',
     };
 }

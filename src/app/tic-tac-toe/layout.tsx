@@ -3,7 +3,7 @@ import ToolLayout from '@/components/Layout/ToolLayout';
 import { calculators } from '@/utils/calculators';
 
 export const metadata: Metadata = {
-    title: 'Tic Tac Toe — Play Online vs AI or 2 Players | ToolMinty',
+    title: 'Tic Tac Toe — Play Online vs AI or 2 Players | ToolDex',
     description: 'Play classic Tic Tac Toe online for free. Challenge the unbeatable Minimax AI or play against a friend in 2-player mode. Tracks scores across rounds.',
     alternates: { canonical: '/tic-tac-toe' },
 };

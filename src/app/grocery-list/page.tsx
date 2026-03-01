@@ -299,7 +299,7 @@ export default function GroceryList() {
         ctx.fillStyle = 'rgba(255,255,255,0.15)';
         ctx.font = '12px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif';
         ctx.textAlign = 'center';
-        ctx.fillText('Generated with ToolMinty Grocery List Builder', CANVAS_W / 2, CANVAS_H - 16);
+        ctx.fillText('Generated with ToolDex Grocery List Builder', CANVAS_W / 2, CANVAS_H - 16);
 
         // Download
         const link = document.createElement('a');

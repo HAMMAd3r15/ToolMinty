@@ -8,7 +8,7 @@ export default function Header() {
             <div className="header-container">
                 <div style={{ display: 'flex', alignItems: 'center', gap: '2rem' }}>
                     <Link href="/" className="logo">
-                        ToolMinty
+                        ToolDex
                     </Link>
                 </div>
 

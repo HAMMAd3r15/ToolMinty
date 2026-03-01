@@ -1,15 +1,15 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'Privacy Policy | ToolMinty',
-    description: 'Privacy Policy for ToolMinty — online calculators and digital tools.',
+    title: 'Privacy Policy | ToolDex',
+    description: 'Privacy Policy for ToolDex — online calculators and digital tools.',
     alternates: {
         canonical: '/privacy',
     },
     openGraph: {
-        title: 'Privacy Policy - ToolMinty',
-        description: 'How we handle your data and privacy at ToolMinty.',
-        url: 'https://toolminty.com/privacy',
+        title: 'Privacy Policy - ToolDex',
+        description: 'How we handle your data and privacy at ToolDex.',
+        url: 'https://tooldex.com/privacy',
         type: 'website',
     },
 };
@@ -40,16 +40,16 @@ export default function PrivacyPage() {
 
             <h2>4. Third-Party Ads</h2>
             <p>
-                Third-party ad servers or ad networks use technology in their respective advertisements and links that appear on ToolMinty, which are sent directly to your browser. They automatically receive your IP address when this occurs.
+                Third-party ad servers or ad networks use technology in their respective advertisements and links that appear on ToolDex, which are sent directly to your browser. They automatically receive your IP address when this occurs.
                 Other technologies (such as cookies, JavaScript, or Web Beacons) may also be used by our site's third-party ad networks to measure the effectiveness of their advertising campaigns and/or to personalize the advertising content that you see on the site.
             </p>
             <p>
-                ToolMinty has no access to or control over these cookies that are used by third-party advertisers.
+                ToolDex has no access to or control over these cookies that are used by third-party advertisers.
             </p>
 
             <h2>5. Contact</h2>
             <p>
-                If you have any questions about this Privacy Policy, please contact us at jamespotter.designs@gmail.com.
+                If you have any questions about this Privacy Policy, please contact us at tooldex.offical@gmail.com.
             </p>
         </article>
     );
