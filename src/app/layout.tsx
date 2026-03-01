@@ -37,6 +37,9 @@ export const metadata: Metadata = {
   alternates: {
     canonical: '/',
   },
+  other: {
+    'google-adsense-account': 'ca-pub-5699722362845664',
+  },
 };
 
 const websiteSchema = {
