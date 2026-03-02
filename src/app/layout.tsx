@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { ThemeProvider } from '@/components/ThemeProvider';
 import Header from '@/components/Layout/Header';
 import JsonLd from '@/components/SEO/JsonLd';
+import { Analytics } from '@vercel/analytics/next';
 
 const inter = Inter({ subsets: ['latin'], display: 'swap' });
 
@@ -113,6 +114,7 @@ export default function RootLayout({
 
           </footer>
         </ThemeProvider>
+        <Analytics />
       </body>
     </html>
   );
